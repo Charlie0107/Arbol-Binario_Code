@@ -1,0 +1,22 @@
+Public class Main {
+    public static void main(String[] args) {
+    
+        Arbol arbol = new Arbol();
+        arbol.insertar(20);
+        arbol.insertar(20);
+        arbol.insertar(70);
+        arbol.insertar(80);
+        arbol.insertar(20);
+        arbol.insertar(60);
+        arbol.insertar(70);
+        arbol.encontrar(40);
+        
+        
+        arbol.inorder();
+        arbol.borrar(20);        
+        System.out.println("----");
+        arbolito.encontrar(70);
+        arbolito.inorder();
+    }
+    
+}
